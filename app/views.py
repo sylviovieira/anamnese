@@ -18,7 +18,7 @@ def treinar_page(request):
 
 
 def interface(request):
-    return render(request, "interface.html")
+    return render(request, "index.html")
 
 
 def categorize_age(age_value):
