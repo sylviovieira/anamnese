@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +21,7 @@
     .main-card {
       background-color: #CFD2D7;
       border-radius: 12px;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
       padding: 40px 30px;
       max-width: 700px;
       width: 100%;
@@ -60,6 +61,7 @@
     }
   </style>
 </head>
+
 <body>
   <div class="main-card">
     <div class="header">
@@ -67,11 +69,13 @@
     </div>
     <div class="menu-container">
       <h2>Escolha uma opção</h2>
-      <a href="{% url 'anamnese' %}" class="btn btn-menu">Anamnese</a>
-      <a href="{% url 'resultado' %}" class="btn btn-menu">Resultado</a>
-      <a href="{% url 'treinar_page' %}" class="btn btn-menu">Treinar Algoritmo</a>
+
+      <a href="anamnese.html" class="btn btn-menu">Anamnese</a>
+      <a href="resultado.html" class="btn btn-menu">Resultado</a>
+      <a href="treinar.html" class="btn btn-menu">Treinar Algoritmo</a>
     </div>
   </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
