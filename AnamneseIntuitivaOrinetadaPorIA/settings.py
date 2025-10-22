@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-(jz2vtm#(4nf4f=n%dc4nb+vy$w@y$fs)9td87cb7^0can21-8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.01', 'anamnese.lasmi.ufn.edu.br', 'www.anamnese.lasmi.ufn.edu.br']
 
 
 # Application definition
@@ -79,8 +79,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'heart_disease',
-        'USER': 'django_user',
-        'PASSWORD': 'sua_senha_segura',
+        'USER': 'heart',
+        'PASSWORD': 'heart@2025',
         'HOST': 'localhost',
         'PORT': '3306',
         'OPTIONS': {

@@ -1,10 +1,10 @@
 from django.shortcuts import render
 
 def interface(request):
-    return render(request, 'interface.html')
+    return render(request, 'interface')
 
 def anamnese(request):
-    return render(request, 'anamnese.html')
+    return render(request, 'anamnese')
 
 def resultado(request):
-    return render(request, 'resultado.html')
+    return render(request, 'resultado')
