@@ -1,0 +1,25 @@
+Relatório de Anamnese – Rodrigo Guimarães
+--------------------------------------------------
+age: 67
+gender: Male
+blood_pressure: High
+cholesterol_level: High
+exercise_habits: High
+smoking: Yes
+family_heart_disease: Yes
+diabetes: Yes
+bmi: 32.41
+high_blood_pressure: Yes
+low_hdl_cholesterol: Yes
+high_ldl_cholesterol: Yes
+alcohol_consumption: High
+stress_level: High
+sleep_hours: High
+sugar_consumption: High
+triglyceride_level: High
+fasting_blood_sugar: High
+crp_level: High
+homocysteine_level: High
+
+Resultado: Positivo (54.18% de chance de Doença Cardíaca)
+Data: 30/10/2025 20:16:08
